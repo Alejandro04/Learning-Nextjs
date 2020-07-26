@@ -1,5 +1,4 @@
 import Nav from './nav'
-import Link from 'next/link'
 import Head from 'next/head'
 
 const Layout = (props) => {
