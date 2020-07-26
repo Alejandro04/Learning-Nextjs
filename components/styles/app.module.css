@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    text-transform: uppercase;
+    background: #dedede;
+    padding: 20px;
+}
+.nav a{
+    margin-right: 20px;
+}
