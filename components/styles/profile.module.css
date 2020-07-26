@@ -1,0 +1,11 @@
+.profileContainer{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.profileAvatar{
+    width: 200px !important;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 40px;
+}

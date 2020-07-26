@@ -1,0 +1,10 @@
+.listGroupContainer{
+    display: flex !important;
+    justify-content: space-around !important;
+}
+.listGroupContainer h5 {
+    margin-top: 30px;
+}
+.avatarImage{
+    border-radius: 50%;
+}
