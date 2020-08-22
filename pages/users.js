@@ -11,15 +11,15 @@ import { getUsers } from '../data/api'
 
 export default function Home() {
 
-  const [params, setParams] = useState()
+  const [params, setParams] = useState("per_page=12")
   const [fake, setFake] = useState(fakedata)
 
   const onUsersChange = (data) => {
     console.log(data.length)
     if(data.length > 0){
-      setParams(`id=${data[0].id}`)
+      setParams(`id=${data[0].id}&per_page=12`)
     }else{
-      setParams(`id=`)
+      setParams(`per_page=12`)
     }
   }
 
