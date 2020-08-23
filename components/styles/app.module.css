@@ -12,3 +12,24 @@
     margin-top: 40px;
     margin-bottom: 20px;
 }
+@media (min-width: 768px) {
+    .paginateTable{
+        display: flex;
+        text-align: center;
+        width: 30%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 80px;
+    }
+    .paginateTable > li{
+        padding: 8px;
+        background: #F6F5F7;
+        margin: 1px;
+        font-weight: bold;
+        list-style: none;
+    }
+    .paginateTable > li:hover{
+        background: #dedede;
+        color: #3F5F75;
+    }
+}
