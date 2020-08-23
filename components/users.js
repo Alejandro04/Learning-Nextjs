@@ -1,6 +1,6 @@
 import ListGroup from 'react-bootstrap/ListGroup'
 import styles from './styles/users.module.css'
-import Layout from '../components/layout'
+import Loader from 'react-loader-spinner'
 import { Card } from 'react-bootstrap'
 import stylesProfile from '../components/styles/profile.module.css'
 import Router from 'next/router'
@@ -41,7 +41,15 @@ const Users = (props) => {
             </div>
 
         } else {
-            component = <div>Cargando...</div>
+            component = <div style={{textAlign: "center"}}>
+                <Loader
+                type="Puff"
+                color="#00BFFF"
+                height={100}
+                width={100}
+                timeout={3000}
+            />
+            </div>
         }
 
         return (
